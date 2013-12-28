@@ -21,6 +21,7 @@
 		C2EA68E1186E7EA100A75F7E /* CardsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EA68E0186E7EA100A75F7E /* CardsTests.m */; };
 		C2EA68EC186E7F9A00A75F7E /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EA68EB186E7F9A00A75F7E /* Card.m */; };
 		C2EA68EF186E80BA00A75F7E /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EA68EE186E80BA00A75F7E /* Deck.m */; };
+		C2EA6A51186F77E300A75F7E /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EA6A50186F77E300A75F7E /* PlayingCard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		C2EA68EB186E7F9A00A75F7E /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
 		C2EA68ED186E809F00A75F7E /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
 		C2EA68EE186E80BA00A75F7E /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		C2EA6A4F186F77E300A75F7E /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		C2EA6A50186F77E300A75F7E /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 				C2EA68EB186E7F9A00A75F7E /* Card.m */,
 				C2EA68ED186E809F00A75F7E /* Deck.h */,
 				C2EA68EE186E80BA00A75F7E /* Deck.m */,
+				C2EA6A4F186F77E300A75F7E /* PlayingCard.h */,
+				C2EA6A50186F77E300A75F7E /* PlayingCard.m */,
 			);
 			path = Cards;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 				C2EA68EF186E80BA00A75F7E /* Deck.m in Sources */,
 				C2EA68CC186E7EA100A75F7E /* AppDelegate.m in Sources */,
 				C2EA68C8186E7EA100A75F7E /* main.m in Sources */,
+				C2EA6A51186F77E300A75F7E /* PlayingCard.m in Sources */,
 				C2EA68EC186E7F9A00A75F7E /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -455,6 +461,7 @@
 				C2EA68E6186E7EA100A75F7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2EA68E7186E7EA100A75F7E /* Build configuration list for PBXNativeTarget "CardsTests" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +470,7 @@
 				C2EA68E9186E7EA100A75F7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
